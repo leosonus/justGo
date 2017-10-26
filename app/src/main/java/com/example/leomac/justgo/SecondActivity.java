@@ -11,5 +11,9 @@ public class SecondActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.second_activity);
         Log.d("Just","Hello");
+        Log.d("kaka", "gogo");
+
+        //throw null;
+        throw new IllegalArgumentException("Just make Illegal");
     }
 }
